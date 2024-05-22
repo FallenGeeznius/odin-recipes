@@ -1,0 +1,13 @@
+h1 {
+    font-size: xx-large;
+    background-color: black;
+    color: lightpink;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-weight: bolder;
+}
+
+.recipes {
+    font-size: x-large;
+    background-color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
