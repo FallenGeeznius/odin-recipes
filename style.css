@@ -1,13 +1,36 @@
+*,
+*::before,
+*::after {
+    /* BOX MODELS */
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
 h1 {
     font-size: xx-large;
+    text-align: center;
     background-color: black;
     color: lightpink;
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-weight: bolder;
+    /* BOX MODELS */
+    width: auto;
+    height: 75px;
+    margin: 10px 100px 25px;
+    padding: 12px 0;
+    border: 5px solid lightblue;
 }
 
 .recipes {
     font-size: x-large;
     background-color: lightcoral;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ /* BOX MODELS */
+ width: 250px;
+ border: 2px solid black;
+ margin-left: 100px;
 }
